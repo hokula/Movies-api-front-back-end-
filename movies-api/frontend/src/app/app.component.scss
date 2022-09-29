@@ -1,0 +1,21 @@
+.header-nav {
+    display: flex;
+    background: rgb(160, 155, 155);
+    align-items: center;
+    margin-bottom: 20px;
+
+    .header-nav-item a {
+        display: block;
+        padding: 15px;
+        font-size: 20px;
+        color: rgb(47, 47, 202);
+        text-decoration: none;
+
+        &:hover,
+        &.active {
+            cursor: pointer;
+            background: #fff;
+            color: #000;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<div (click)="updateMovie(movie)" class="movie-card">
+    <button (click)="deleteMovie(movie.film_id)">X</button>
+    <div class="movie-card__image"></div>
+    <p class="movie-card__title">{{movie.title}}</p>
+    <div class="movie-card__text">
+        <span>Length: {{movie.length}}min</span>
+        <span>Rating: {{movie.rating}}</span>
+    </div>
+</div>

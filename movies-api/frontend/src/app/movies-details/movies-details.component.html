@@ -1,0 +1,7 @@
+<div class="movies-wrapper">
+<app-movie-card [movie]="movie"></app-movie-card>
+</div>
+
+<textarea rows="10" cols="30" [ngModel]="movie.description"></textarea>
+
+<button (click)="gotoUpdate(movie.film_id)" class="update-movie">Update movie</button>

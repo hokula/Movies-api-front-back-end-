@@ -1,0 +1,30 @@
+.movie-card {
+    height: 200px;
+    background: #000;
+    box-shadow: 4px -5px 38px -12px rgba(0,0,0,0.65);
+    cursor: pointer;
+    &__image {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BMmVlODAyNTAtODc3Yi00MjFhLTk5MTktNWIwOTUzY2M2ZDc5XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 62%;
+    }
+    &__title {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 8px;
+        font-size: 10px;
+    }
+    &__text {
+        color: #ccc;
+        font-size: 10px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        margin: 5px
+    }
+    &:hover {
+        cursor: pointer;
+        opacity: .7;
+    }
+}

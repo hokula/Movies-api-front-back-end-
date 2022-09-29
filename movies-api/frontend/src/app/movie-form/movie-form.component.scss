@@ -1,0 +1,46 @@
+.movie-form {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 400px;
+
+    .form-element input,
+    .form-element select,
+    .form-element textarea {
+        display: block;
+        width: 100%;
+    }
+
+    .form-element {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 30%;
+        border: none;
+        margin-top: 10px;
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+    .cancel-btn {
+        background-color: #f59c95;
+        margin-right: 10px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #f37e75;
+        }
+    }
+
+    .save-btn {
+        background-color: #73f571;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #58f556;
+        }
+    }
+
+}

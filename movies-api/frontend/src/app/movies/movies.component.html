@@ -1,0 +1,7 @@
+<div class="search-movie">
+    <input [(ngModel)]="query" (keyup.enter)="searchMovies()" type="text" placeholder="Search for movie">
+</div>
+<div class="movies-wrapper">
+    <app-movie-card (onUpdate)="gotoDetails($event)" (onDelete)="deleteMovie($event)" *ngFor="let movie of movies" [movie]="movie"></app-movie-card>
+
+</div>

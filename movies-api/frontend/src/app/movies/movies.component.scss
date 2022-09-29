@@ -1,0 +1,20 @@
+.movies-wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px 10px;
+}
+.search-movie {
+    margin: 30px;
+
+    input {
+        padding: 10px 20px;
+        text-align: center;
+        display: block;
+        font-size: 25px;
+        width: 50%;
+        margin: auto;
+        border: none;
+        border-bottom: 1px solid #000;
+    }
+}

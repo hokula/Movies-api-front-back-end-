@@ -1,0 +1,15 @@
+.movies-wrapper {
+    width: 200px;
+}
+.update-movie {
+    display: block;
+    padding: 15px 20px;
+    border: none;
+    background: rgb(189, 125, 8);
+    color: #fff;
+    font-size: 18px;
+    &:hover {
+        cursor: pointer;
+        opacity: .8;
+    }
+}
